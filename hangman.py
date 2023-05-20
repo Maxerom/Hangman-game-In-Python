@@ -8,7 +8,7 @@ from collections import Counter
 # You can add your own words, like Movie names, Sport names... Sky is the limit here
 someWords = ''' apple banana lemon melon cherry pineapple'''
 
-# This splits our words into list, like this [apple, banana, lemon (and so on until are words are here)]
+# This splits our words into list, like this [apple, banana, lemon (and so on until all our words are here)]
 someWords = someWords.split(' ')
 
 # Here we have use our random function where it chooses any words from above randomly. Even I don't which word is selected here.
