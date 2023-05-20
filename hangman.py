@@ -1,11 +1,21 @@
+# Python program to make a hangman game
+
+# Importing random and counter libraries here
 import random
 from collections import Counter
 
+# This contains our words. You can add more words if you want but just make sure each word have a space between them
+# You can add your own words, like Movie names, Sport names... Sky is the limit here
 someWords = ''' apple banana lemon melon cherry pineapple'''
 
+# This splits our words into list, like this [apple, banana, lemon (and so on until are words are here)]
 someWords = someWords.split(' ')
+
+# Here we have use our random function where it chooses any words from above randomly. Even I don't which word is selected here.
 word = random.choice(someWords)
 
+
+# Here our main program starts runnnig
 if __name__ == '__main__':
     print('Guess the word! HINT: Word is a name of a fruit')
 
